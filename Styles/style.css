@@ -1,0 +1,47 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(108,164,211);
+}
+
+@font-face {
+	font-family: Trend;
+	src: url('Fonts/Trend-HM-Sans-One.otf');
+}
+
+a {
+	text-decoration: none;
+	font-family: Trend;
+	color: rgb(74,184,89);
+}
+
+a:visited {
+	text-decoration: none;
+	font-family: Trend;
+	color: rgb(74,184,89);
+}
+
+a:hover {
+	text-decoration: none;
+	font-family: Trend;	
+	color: rgb(74,184,89);
+}
+
+nav {
+	text-align: center;
+	font-family: Trend;
+	padding-top: 15px;
+	height: 40px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 25px;
+	padding-right: 25px;
+}
