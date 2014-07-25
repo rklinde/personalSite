@@ -5,7 +5,7 @@ body {
 
 @font-face {
 	font-family: Trend;
-	src: url('Fonts/Trend-HM-Sans-One.otf');
+	src: url('../Fonts/Trend-HM-Sans-One.otf');
 }
 
 a {
