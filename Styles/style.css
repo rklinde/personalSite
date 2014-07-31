@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	color: rgb(108,164,211);
+	/* color: rgb(108,164,211); */
 }
 
 @font-face {
@@ -8,27 +8,46 @@ body {
 	src: url('../Fonts/Trend-HM-Sans-One.otf');
 }
 
+@font-face {
+	font-family: mad;
+	src: url('../Fonts/Madelinette.otf');
+}
+
+#header {
+	margin: 0 auto;
+	font-family: mad;
+	font-size: 60pt;
+	color: rgb(202,202,202);
+}
+
+#header a {
+	text-decoration: none;
+	font-family: mad;
+	font-size: 60pt;
+	color: rgb(202,202,202);
+}
+
 a {
 	text-decoration: none;
-	font-family: Trend;
+	font-family: mad;
 	color: rgb(74,184,89);
 }
 
 a:visited {
 	text-decoration: none;
-	font-family: Trend;
+	font-family: mad;
 	color: rgb(74,184,89);
 }
 
 a:hover {
 	text-decoration: none;
-	font-family: Trend;	
-	color: rgb(74,184,89);
+	font-family: mad;	
+	color: rgb(108,164,211);
 }
 
 nav {
-	text-align: center;
-	font-family: Trend;
+
+	font-family: mad;
 	padding-top: 15px;
 	height: 40px;
 	width: 900px;
@@ -43,5 +62,65 @@ nav li {
 	list-style-type: none;
 	display: inline-block;
 	font-size: 25px;
-	padding-right: 25px;
+	padding-right: 100px;
 }
+
+#spacer {
+	width: 900px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#mainWrap {
+	width: 900px;
+	padding-top: 10px;
+	margin: 0 auto;
+	/* border: solid 1px black; */
+}
+
+#leftWrap {
+	width: 65%;
+	height: 300px;
+	float: left;
+	padding:-20px;
+	/* background-color: rgb(108,164,211); */
+}
+
+#rightWrap {
+	width: 34%;
+	height: 500px;
+	float: right;
+	border-left: solid 2px rgb(202,202,202);
+	/* background-color: rgb(200,164,211); */
+}
+
+#rightWrap p {
+	padding-left:10px;
+	font-size:10px;
+	text-align: center;
+}
+
+.heading {
+	font-family: mad;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.mainHeading {
+	font-family: mad;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+p {
+	font-size: 10pt;
+	margin-right:20px;
+}
+
+.quote {
+	font-family: mad;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+
